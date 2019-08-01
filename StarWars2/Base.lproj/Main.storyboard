@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StarWarsキャラクター" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StarWars2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,7 +60,7 @@
         <!--Chara View Controller-->
         <scene sceneID="ddj-uC-7g6">
             <objects>
-                <viewController id="lUD-Z4-j7w" customClass="CharaViewController" customModule="StarWarsキャラクター" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lUD-Z4-j7w" customClass="CharaViewController" customModule="StarWars2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5m9-wM-lxa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -144,7 +144,7 @@
         <!--View Controller-->
         <scene sceneID="JAr-28-Fua">
             <objects>
-                <viewController id="Um0-eb-ns9" customClass="BB8ViewController" customModule="StarWarsキャラクター" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Um0-eb-ns9" customClass="BB8ViewController" customModule="StarWars2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2H9-74-QzG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -184,7 +184,7 @@
         <!--Planet View Controller-->
         <scene sceneID="um4-DY-Z07">
             <objects>
-                <viewController id="jKO-Rs-dnL" customClass="PlanetViewController" customModule="StarWarsキャラクター" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jKO-Rs-dnL" customClass="PlanetViewController" customModule="StarWars2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jq2-UY-CYm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
