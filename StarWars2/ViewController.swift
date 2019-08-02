@@ -34,5 +34,7 @@ class ViewController: UIViewController {
     @IBAction func didClickChara(_ sender: UIButton) {
         performSegue(withIdentifier: "toChara", sender: nil)
     }
+    
+    
 }
 

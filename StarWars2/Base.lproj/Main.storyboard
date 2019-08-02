@@ -96,15 +96,21 @@
                                     <action selector="yodaButton:" destination="lUD-Z4-j7w" eventType="touchUpInside" id="x0M-lC-zBF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewQ-xS-RP5">
-                                <rect key="frame" x="282" y="406" width="96" height="106"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewQ-xS-RP5">
+                                <rect key="frame" x="282" y="395" width="96" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="ioku"/>
+                                <connections>
+                                    <action selector="iokuButton:" destination="lUD-Z4-j7w" eventType="touchUpInside" id="st5-zf-6vz"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgA-Io-713">
-                                <rect key="frame" x="159" y="406" width="96" height="106"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgA-Io-713">
+                                <rect key="frame" x="159" y="395" width="96" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="c3po"/>
+                                <connections>
+                                    <action selector="c3poButton:" destination="lUD-Z4-j7w" eventType="touchUpInside" id="DMS-At-dOQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a69-dT-29y">
                                 <rect key="frame" x="34" y="206" width="96" height="94"/>
@@ -114,20 +120,29 @@
                                     <action selector="bb8Button:" destination="lUD-Z4-j7w" eventType="touchUpInside" id="I7c-2z-l3b"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31M-eu-e2C">
-                                <rect key="frame" x="35" y="579" width="96" height="106"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31M-eu-e2C">
+                                <rect key="frame" x="32" y="579" width="101" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="storupa"/>
+                                <connections>
+                                    <action selector="torupaButton:" destination="lUD-Z4-j7w" eventType="touchUpInside" id="HR9-qt-tAt"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6EP-zc-ass">
-                                <rect key="frame" x="159" y="579" width="96" height="106"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6EP-zc-ass">
+                                <rect key="frame" x="159" y="579" width="96" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="torupa"/>
+                                <connections>
+                                    <action selector="kurontorupaButton:" destination="lUD-Z4-j7w" eventType="touchUpInside" id="1Jr-Mw-IhD"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHB-ta-brG">
-                                <rect key="frame" x="298" y="579" width="96" height="106"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHB-ta-brG">
+                                <rect key="frame" x="282" y="579" width="96" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="mazu"/>
+                                <connections>
+                                    <action selector="mazuButton:" destination="lUD-Z4-j7w" eventType="touchUpInside" id="Uxn-Zu-ecU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -139,7 +154,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qgP-yo-inW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1585.5072463768117" y="1088.1696428571429"/>
+            <point key="canvasLocation" x="1585.5072463768117" y="1087.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JAr-28-Fua">
@@ -150,23 +165,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BB8" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xO2-IJ-dCQ">
-                                <rect key="frame" x="222" y="194" width="172" height="106"/>
+                                <rect key="frame" x="242" y="194" width="172" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qcl-gP-2hj">
+                                <rect key="frame" x="54" y="161" width="180" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ax2-jr-KUK">
-                                <rect key="frame" x="48" y="381" width="311" height="311"/>
+                                <rect key="frame" x="52" y="351" width="311" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qcl-gP-2hj">
-                                <rect key="frame" x="20" y="161" width="180" height="173"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="oDt-zr-ejq"/>
@@ -179,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q7m-80-GHn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2432" y="1088"/>
+            <point key="canvasLocation" x="2431.8840579710145" y="1087.5"/>
         </scene>
         <!--Planet View Controller-->
         <scene sceneID="um4-DY-Z07">
@@ -226,8 +241,13 @@
     </scenes>
     <resources>
         <image name="bb8" width="1025" height="1013"/>
+        <image name="c3po" width="940" height="1006"/>
+        <image name="ioku" width="1073" height="1056"/>
         <image name="jaja" width="1097" height="1066"/>
+        <image name="mazu" width="941" height="927"/>
         <image name="r2d2" width="758" height="759"/>
+        <image name="storupa" width="948" height="934"/>
+        <image name="torupa" width="1113" height="1046"/>
         <image name="yoda" width="1139" height="1075"/>
     </resources>
 </document>

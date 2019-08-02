@@ -31,6 +31,32 @@ class CharaViewController: UIViewController {
         performSegue(withIdentifier: "toChara", sender: "4")
     }
     
+//c3poボタン
+    @IBAction func c3poButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toChara", sender: "5")
+    }
+    
+//iokuボタン
+    @IBAction func iokuButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toChara", sender: "6")
+    }
+    
+//ストームトルーパーボタン
+    @IBAction func torupaButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toChara", sender: "7")
+    }
+//クローントルーパーボタン
+    @IBAction func kurontorupaButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toChara", sender: "8")
+    }
+    
+//マズ・カナタボタン
+    @IBAction func mazuButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toChara", sender: "9")
+    }
+    
+    
+    
     
     
     
