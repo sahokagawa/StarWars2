@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func didClickChara(_ sender: UIButton) {
-        performSegue(withIdentifier: "toChara", sender: nil)
+        performSegue(withIdentifier: "toChara1", sender: nil)
     }
     
     

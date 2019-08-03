@@ -15,6 +15,7 @@
 		310994CF22F1BAC000D03823 /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310994CE22F1BAC000D03823 /* PlanetViewController.swift */; };
 		310994D122F1BB3C00D03823 /* CharaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310994D022F1BB3C00D03823 /* CharaViewController.swift */; };
 		310994D322F1C5EF00D03823 /* BB8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310994D222F1C5EF00D03823 /* BB8ViewController.swift */; };
+		31583AFA22F46439008D14B6 /* Planet2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31583AF922F46439008D14B6 /* Planet2ViewController.swift */; };
 		CAD19EA8038981CD3ABAE56F /* Pods_StarWars2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7ECB0C4277D108FAF283993 /* Pods_StarWars2.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		310994CE22F1BAC000D03823 /* PlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
 		310994D022F1BB3C00D03823 /* CharaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharaViewController.swift; sourceTree = "<group>"; };
 		310994D222F1C5EF00D03823 /* BB8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BB8ViewController.swift; sourceTree = "<group>"; };
+		31583AF922F46439008D14B6 /* Planet2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet2ViewController.swift; sourceTree = "<group>"; };
 		4DF1814ABE1E4DA093E591CC /* Pods-StarWarsキャラクター.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsキャラクター.release.xcconfig"; path = "Target Support Files/Pods-StarWarsキャラクター/Pods-StarWarsキャラクター.release.xcconfig"; sourceTree = "<group>"; };
 		5B4A504EBCF6160BF882745F /* Pods-StarWarsキャラクター.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsキャラクター.debug.xcconfig"; path = "Target Support Files/Pods-StarWarsキャラクター/Pods-StarWarsキャラクター.debug.xcconfig"; sourceTree = "<group>"; };
 		7606995115B6F3D53D371682 /* Pods-StarWars2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWars2.debug.xcconfig"; path = "Target Support Files/Pods-StarWars2/Pods-StarWars2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		310994B022F1B8F600D03823 = {
 			isa = PBXGroup;
 			children = (
+				31583AF922F46439008D14B6 /* Planet2ViewController.swift */,
 				310994BB22F1B8F600D03823 /* StarWars2 */,
 				310994BA22F1B8F600D03823 /* Products */,
 				50301124049B070F77AD39C2 /* Pods */,
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				310994BF22F1B8F600D03823 /* ViewController.swift in Sources */,
+				31583AFA22F46439008D14B6 /* Planet2ViewController.swift in Sources */,
 				310994BD22F1B8F600D03823 /* AppDelegate.swift in Sources */,
 				310994D122F1BB3C00D03823 /* CharaViewController.swift in Sources */,
 				310994CF22F1BAC000D03823 /* PlanetViewController.swift in Sources */,

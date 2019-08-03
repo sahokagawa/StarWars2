@@ -9,22 +9,28 @@
 import UIKit
 
 class PlanetViewController: UIViewController {
-
+    @IBOutlet weak var bgImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let bg = UIImage(named: "background")
+        bgImageView.image = bg
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+//コルサント　spot
+    @IBAction func consaltButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toPlanet2", sender: "1")
     }
-    */
-
+//なブー　　spot1
+    
+    @IBAction func nabuButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toPlanet2", sender: "2")
+    }
+    
+//タトゥイーン　　spot3
+    
+    @IBAction func tatwuinButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toPlanet2", sender: "3")
+    }
+    
 }
