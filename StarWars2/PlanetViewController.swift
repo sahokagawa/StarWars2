@@ -33,4 +33,10 @@ class PlanetViewController: UIViewController {
         performSegue(withIdentifier: "toPlanet2", sender: "3")
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toPlanet2"{
+            let nextVC = segue.destination as! Planet2ViewController
+            nextVC.planetNum = sender as! String
+        }
+    }
 }
